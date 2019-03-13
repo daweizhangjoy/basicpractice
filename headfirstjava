@@ -1,0 +1,17 @@
+class myDog{
+    int size;
+    //String breed;
+   // String name;
+    
+    void bark(){
+        System.out.print("leo!!");
+    }
+}
+public class Dog{
+    public static void main(String[ ] args){
+        myDog d = new myDog();
+        d.size = 2;
+        d.bark();
+        
+    }
+}
